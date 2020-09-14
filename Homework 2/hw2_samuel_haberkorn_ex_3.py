@@ -62,6 +62,7 @@ def strList(start_list: list) -> str:
 
 
 # This function handles the instances where the list is not strings because .join() will not cast unfortunately
+
 def cast_lists_to_str(items: list) -> str:
     for item in items:
         yield str(item)
